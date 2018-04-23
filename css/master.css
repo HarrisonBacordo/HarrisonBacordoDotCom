@@ -1,0 +1,440 @@
+body {
+    background-color: rgb(235, 235, 235);
+    color: rgb(20, 20, 20);
+    margin: 0;
+}
+
+p, span, li {
+    letter-spacing: 0.5px;
+    font-family: 'Raleway',sans-serif;
+    font-size: 100%;
+    list-style: none;
+}
+
+h1 {
+    font-size: 300%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+h2 {
+    border-radius: 0 0 5% 5%;
+    color: rgb(235, 235, 235);
+    font-family: 'Palanquin',sans-serif;
+    font-size: 120%;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 1% 5%;
+    display: inline-block;
+}
+
+hr {
+    border-style: solid;
+    border-width: 2px;
+    margin: 5% 0 0 0;
+
+}
+
+#hamburger {
+    border-radius: 25%;
+    margin-left: 3%;
+    margin-top: 3%;
+    padding: 1.5% 1.5% 2% 1.5%;
+    color: rgb(215, 215, 215);
+}
+
+#hamburger-menu {
+    overflow: auto;
+    height: 100vh;
+    width: 30vh;
+    background-color: #343B41;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: fixed;
+}
+
+#hamburger-menu h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5% 0 5% 10%;
+    margin-top: 30%;
+    background-color: #5491F2;
+    color: rgb(245, 245, 245);
+    font-size: 150%;
+    cursor: pointer;
+}
+
+#hamburger-menu ul {
+    margin-top: 30%;
+    margin-left: 1%;
+    padding: 0;
+}
+
+#hamburger-menu li {
+    background-color: #2c3238;
+    font-family: 'Palanquin',sans-serif;
+    border-left-style: solid;
+    border-left-width: 2px;
+    padding: 7% 5%;
+    color: rgb(215, 215, 215);
+    cursor: pointer;
+
+    margin-bottom: 0.5%;
+    text-align: center;
+}
+
+#ham-menu-background {
+    border-left-color:rgb(84, 145, 242);
+}
+
+#ham-menu-skills {
+    border-left-color: rgb(109, 232, 135);
+}
+
+#ham-menu-education {
+    border-left-color: rgb(241, 83, 83);
+}
+
+#ham-menu-projects {
+    border-left-color: rgb(180, 83, 219);
+}
+
+#ham-menu-contact {
+    border-left-color: rgb(229, 167, 73);
+}
+
+#ham-menu-linkedin {
+    border-left-color: #0077B5;
+}
+
+#ham-menu-github {
+    border-left-color: #323131;
+}
+
+#hamburger-menu a{
+
+    color: rgb(215, 215, 215);
+    text-decoration: none;
+}
+
+#main-header-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/main-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#main-header {
+    color: rgb(235, 235, 235);
+    height: 20%;
+    margin: auto;
+    padding: 10%;
+    text-align: center;
+    width: 50%;
+}
+
+#main-header h1{
+    text-align: center;
+}
+
+#main-header span {
+    font-family: 'Oxygen', sans-serif;
+    height: 10%;
+    width: 50%;
+}
+
+.section {
+    margin: 0 5%;
+}
+
+#background h2 {
+    background-color: rgb(84, 145, 242);
+}
+
+#background hr {
+    color: rgb(84, 145, 242);
+}
+
+#background a {
+    color: rgb(84, 145, 242);
+    font-family: 'Palanquin', sans-serif;
+    font-size: 120%;
+    text-decoration: underline;
+
+}
+
+#background img{
+    margin-top: 0;
+    border-radius: 1%;
+    margin-right: 5%;
+    width: 100%;
+}
+
+#skills h2 {
+    background-color: rgb(109, 232, 135);
+}
+
+#skills hr {
+    color: rgb(109, 232, 135);
+}
+
+#skills ul {
+    padding: 0;
+}
+
+#skills li {
+    cursor: pointer;
+    padding: 3% 2%;
+    border-radius: 0 3% 3% 0;
+    color: white;
+}
+
+#skills li p{
+    font-size: 80%;
+    display: none;
+}
+
+
+#java {
+    background-color: rgb(180, 83, 219);
+}
+
+#android-dev {
+    background-color: rgb(241, 83, 83);
+    margin-right: 15%;
+}
+
+#python {
+    background-color: rgb(84, 145, 242);
+    margin-right: 30%;
+}
+
+#html-css {
+    background-color: rgb(99, 191, 97);
+    margin-right: 40%;
+}
+
+#javascript {
+    background-color: rgb(229, 167, 73);
+    margin-right: 40%;
+}
+
+#c-lang {
+    background-color: rgb(68, 68, 68);
+    margin-right: 50%;
+}
+
+#education h2 {
+    background-color: rgb(241, 83, 83);
+}
+
+#education hr {
+    color: rgb(241, 83, 83);
+}
+
+.edu-png {
+    padding: 1%;
+    margin: 0 5%;
+    transition: background-color 0.5s;
+}
+
+.edu-png:hover {
+    border-radius: 20%;
+    background-color: rgb(200, 200, 200);
+}
+
+#vuw-png {
+    height:20%;
+    width:50%;
+    border-radius: 2%;
+}
+
+#udemy-png {
+    height:20%;
+    width:20%;
+    border-radius: 20%;
+}
+
+#projects h2 {
+    background-color: rgb(180, 83, 219);
+}
+
+#projects hr {
+    color: rgb(180, 83, 219);
+}
+
+#projects ul {
+    padding: 0;
+}
+
+#projects img {
+    margin-top: 4%;
+}
+
+#flatmate-png {
+    width: 35%;
+}
+
+#deathkrawl-png {
+    width: 40%;
+}
+
+#contact h2 {
+    background-color: rgb(229, 167, 73);
+}
+
+#contact hr {
+    color: rgb(229, 167, 73);
+}
+
+footer {
+    padding: 8vh;
+    background: #343B41;
+    color: rgb(245, 245, 245);
+    text-align: center;
+}
+
+/* Tablets */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    body {
+        display: inline;
+    }
+
+
+    #hamburger {
+        display: none;
+    }
+
+    #hamburger-menu {
+        background-color: #343B41;
+        width: 25%;
+        display: inline;
+        float: left;
+    }
+
+    #hamburger-menu h1 {
+        font-family: 'Montserrat', sans-serif;
+        padding: 5% 0 5% 10%;
+        margin-top: 15%;
+        background-color: #5491F2;
+        color: rgb(245, 245, 245);
+        font-size: 150%;
+    }
+
+    #hamburger-menu ul {
+        margin-top: 30%;
+        margin-left: 0;
+    }
+
+    #hamburger-menu li {
+        background-color: #2c3238;
+        margin-bottom: 0.5%;
+        padding: 2% 2%;
+        border-left-width: 4px;
+        text-align: center;
+    }
+
+    #main-header-container {
+        height: 60vh;
+    }
+
+    #main-page {
+        width: 75%;
+        display: block;
+        float: right;
+    }
+
+    #main-header h1 {
+        font-size: 400%;
+    }
+
+    #main-header span {
+        font-size: 150%;
+    }
+
+    hr {
+        margin-top: 10%;
+        clear:both;
+    }
+
+
+    #background img{
+        float: right;
+        margin-top: 0;
+        border-radius: 1%;
+        margin-right: 5%;
+        width: 25%;
+    }
+    #background p {
+        margin-top: 2%;
+        width: 65%;
+        float: left;
+    }
+
+    #skills-divider{
+        margin-top: 30%;
+    }
+
+    #skills li {
+        cursor: pointer;
+        font-family: 'Palanquin',sans-serif;
+        padding: 1% 2%;
+        border-radius: 0 3% 3% 0;
+        color: white;
+    }
+
+    #skills li p{
+        font-size: 100%;
+        display: none;
+    }
+
+    #java {
+        background-color: rgb(180, 83, 219);
+        margin-right: 40%;
+    }
+
+    #android-dev {
+        background-color: rgb(241, 83, 83);
+        margin-right: 45%;
+    }
+
+    #python {
+        background-color: rgb(84, 145, 242);
+        margin-right: 55%;
+    }
+
+    #html-css {
+        background-color: rgb(99, 191, 97);
+        margin-right: 60%;
+    }
+
+    #javascript {
+        background-color: rgb(229, 167, 73);
+        margin-right: 60%;
+    }
+
+    #c-lang {
+        background-color: rgb(68, 68, 68);
+        margin-right: 70%;
+    }
+
+    #vuw-png {
+        height: 20%;
+        width: 20%;
+    }
+    #udemy-png {
+        height: 5%;
+        width: 5%;
+    }
+
+    #flatmate-png {
+        width:8%;
+    }
+
+    #deathkrawl-png {
+        width:20%;
+    }
+}
