@@ -165,7 +165,8 @@ hr {
     margin-top: 0;
     border-radius: 1%;
     margin-right: 5%;
-    width: 100%;
+    margin-bottom: 5%;
+    width: 50%;
 }
 
 #skills h2 {
@@ -285,13 +286,6 @@ hr {
     color: rgb(229, 167, 73);
 }
 
-footer {
-    padding: 8vh;
-    background: #343B41;
-    color: rgb(245, 245, 245);
-    text-align: center;
-}
-
 /* Tablets */
 @media only screen and (min-width: 600px) {
 
@@ -398,12 +392,12 @@ footer {
 
     #android-dev {
         background-color: rgb(241, 83, 83);
-        margin-right: 45%;
+        margin-right: 50%;
     }
 
     #python {
         background-color: rgb(84, 145, 242);
-        margin-right: 55%;
+        margin-right: 45%;
     }
 
     #html-css {
